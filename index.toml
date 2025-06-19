@@ -3152,8 +3152,9 @@ hash = "d838ed8a05266090e84e170f82a3f2b38ce321faaad0c747323302436a4a4bfd"
 metafile = true
 
 [[files]]
-file = "mods/better-clouds-1.3.31-beta+1.20.1-forge.rev.d50036c.jar"
-hash = "d27adab69e6c249f9b32d8dcdb16971931b9ed2f13e618c4b0b61aa74c9d0ad8"
+file = "mods/better-clouds.pw.toml"
+hash = "e2bc63cea33a1fb1924909db08c8eb8e8bb6ac4fb0404a5e7dff85b038371612"
+metafile = true
 
 [[files]]
 file = "mods/better-tridents.pw.toml"
