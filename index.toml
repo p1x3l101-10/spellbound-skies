@@ -3138,7 +3138,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
+hash = "a86ce796ebf9141ed1bd0bff0446f3f06a63f588245bb3d206364968ba1f83a6"
 metafile = true
 
 [[files]]
@@ -3439,6 +3439,11 @@ metafile = true
 [[files]]
 file = "mods/deepmoblearningreloaded.pw.toml"
 hash = "c6f5b1d313de1ac05682a01b4cfd4795c9198f7189fb1742e96ae27b6304cac1"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "04982248fbfb09fe69f8075d589bc0bc8fab58bd98e165100f0e9da8045119d8"
 metafile = true
 
 [[files]]
@@ -3749,6 +3754,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "fd35eb8e67f11aec4ae71465ac1b2d9599039d1b3efd8f463655b58f744b5a09"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "b29b617692233d60179a6d7376dade85063af0e73a3cc53c623bf570fb768d82"
 metafile = true
 
 [[files]]
