@@ -1,0 +1,1535 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2ars_botanica"
+	group: ""
+	id: "17AB709C3CE3C1EA"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["000000000000002F"]
+			id: "00000000000000DE"
+			rewards: [
+				{
+					count: 64
+					id: "00000000000000F0"
+					item: "minecraft:oak_leaves"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "00000000000000F1"
+					item: "minecraft:spruce_leaves"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "00000000000000F2"
+					item: "minecraft:birch_leaves"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "00000000000000F3"
+					item: "minecraft:jungle_leaves"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "00000000000000F4"
+					item: "minecraft:acacia_leaves"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "00000000000000F5"
+					item: "minecraft:dark_oak_leaves"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000DF"
+				item: "botania:munchdew"
+				type: "item"
+			}]
+			title: "The Munchdew"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["000000000000002F"]
+			id: "00000000000000E0"
+			rewards: [
+				{
+					count: 4
+					id: "00000000000000F6"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "00000000000000F7"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "00000000000000F8"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "00000000000000F9"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000E1"
+				item: "botania:agricarnation"
+				type: "item"
+			}]
+			title: "The Agricarnation"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000000002F"]
+			id: "00000000000000E2"
+			rewards: [
+				{
+					count: 20
+					id: "00000000000000FA"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "00000000000000FB"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000E3"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			title: "The Entropinnyum"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["000000000000002F"]
+			id: "00000000000000E4"
+			rewards: [{
+				id: "0000000000000108"
+				item: "botania:cosmetic_cat_ears"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000000E5"
+				item: "botania:tigerseye"
+				type: "item"
+			}]
+			title: "The Tiger's Eye"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["000000000000002F"]
+			id: "00000000000000E6"
+			rewards: [{
+				id: "0000000000000107"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "00000000000000E7"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			title: "The Rose Arcana"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["000000000000002F"]
+			id: "00000000000000E8"
+			rewards: [
+				{
+					id: "2760B960092F2A0F"
+					item: "netherchested:nether_chest"
+					type: "item"
+				}
+				{
+					id: "7CB4FB93385C3F41"
+					item: "minecraft:item_frame"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000E9"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			title: "The Hopperhock"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["000000000000002F"]
+			id: "00000000000000EA"
+			rewards: [
+				{
+					id: "00000000000000FD"
+					item: {
+						Count: 1
+						id: "minecraft:cake"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Lie\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000FE"
+					item: {
+						Count: 1
+						id: "minecraft:cake"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Lie\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000FF"
+					item: {
+						Count: 1
+						id: "minecraft:cake"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Lie\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000100"
+					item: {
+						Count: 1
+						id: "minecraft:cake"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Lie\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000101"
+					item: {
+						Count: 1
+						id: "minecraft:cake"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Lie\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000102"
+					item: {
+						Count: 1
+						id: "minecraft:cake"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Lie\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000103"
+					item: {
+						Count: 1
+						id: "minecraft:cake"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Lie\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000104"
+					item: {
+						Count: 1
+						id: "minecraft:cake"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Lie\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000EB"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			title: "The Kekimurus"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000002F"]
+			description: [""]
+			id: "00000000000000EC"
+			rewards: [{
+				id: "00000000000000FC"
+				item: "botania:teru_teru_bozu"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000000ED"
+				item: "botania:bellethorn"
+				type: "item"
+			}]
+			title: "The Bellethorne"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"00000000000000E0"
+				"00000000000000EC"
+				"00000000000000E2"
+				"00000000000000E8"
+				"00000000000000EA"
+				"00000000000000DE"
+				"00000000000000E6"
+				"00000000000000E4"
+			]
+			description: ["So far you have gathered some of the basic functional and generative flowers, don't stop here though! continue to discover more!"]
+			hide_until_deps_visible: true
+			icon: "botania:apothecary_livingrock"
+			id: "00000000000000EE"
+			rewards: [{
+				id: "7EA661567A225CC6"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:sylvan_capacitor"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Continue your Botanical Journey!"
+			tasks: [{
+				id: "6421FD45FEB53CCD"
+				title: "Continue your Botanical Journey!"
+				type: "checkmark"
+			}]
+			title: "Flower Power(s)"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"40607BA72B8C9CE5"
+				"2261EFA1CE25B59B"
+			]
+			id: "0000000000000073"
+			rewards: [
+				{
+					id: "000000000000008B"
+					item: {
+						Count: 1
+						id: "botania:mana_tablet"
+						tag: {
+							mana: 500000
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "76BC559526E1EFE4"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "299D5AAEAED710E8"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "0000000000000074"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Mana Tablet"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000035"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "botania:fel_pumpkin"
+			id: "0000000000000075"
+			rewards: [
+				{
+					id: "000000000000008D"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "000000000000008E"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "0000000000000076"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "000000000000008C"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+			]
+			title: "Fel Pumpkins"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000075"]
+			icon: "botania:runic_altar"
+			id: "0000000000000077"
+			rewards: [{
+				id: "0000000000000095"
+				table_id: 143L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "0000000000000078"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+				{
+					id: "0000000000000091"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "0000000000000092"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "0000000000000093"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "0000000000000094"
+					item: "botania:rune_air"
+					type: "item"
+				}
+			]
+			title: "Rune Crafting"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0000000000000073"
+				"0000000000000077"
+			]
+			id: "0000000000000079"
+			rewards: [{
+				id: "0000000000000098"
+				table_id: 150L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "000000000000007A"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			title: "Terrestrial Agglomeration"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000073"]
+			icon: "botania:enchanter"
+			id: "000000000000007B"
+			rewards: [{
+				id: "00000000000000AA"
+				table_id: 169L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "00000000000000AB"
+					item: "botania:mana_pylon"
+					type: "item"
+				}
+				{
+					id: "00000000000000AC"
+					item: "botania:enchanter"
+					type: "item"
+				}
+			]
+			title: "Mana Enchanting"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"000000000000007F"
+				"0000000000000079"
+			]
+			id: "000000000000007D"
+			rewards: [{
+				id: "00000000000000A6"
+				table_id: 165L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 2L
+				id: "000000000000007E"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "Terrasteel"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000075"]
+			icon: "minecraft:blaze_rod"
+			id: "000000000000007F"
+			rewards: [{
+				id: "000000000000009C"
+				table_id: 154L
+				type: "choice"
+			}]
+			subtitle: "You might need a real blaze for these..."
+			tasks: [
+				{
+					count: 10L
+					id: "0000000000000080"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "0000000000000099"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			title: "Blaze Rods!"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["000000000000007F"]
+			icon: "botania:brewery"
+			id: "0000000000000081"
+			rewards: [{
+				id: "00000000000000A1"
+				table_id: 160L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "0000000000000082"
+					item: "botania:brewery"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "000000000000009D"
+					item: "botania:vial"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "000000000000009E"
+					item: "botania:flask"
+					type: "item"
+				}
+			]
+			title: "Botanical Brewing"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["000000000000007D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "botania:block/alfheim_portal_swirl"
+				}
+			}
+			id: "0000000000000083"
+			rewards: [{
+				id: "00000000000000B1"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "0000000000000084"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "00000000000000AD"
+					item: "botania:livingwood"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "00000000000000AE"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000000AF"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000000B0"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			title: "Elven Tradeways"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0000000000000083"
+				"000000000000007D"
+			]
+			icon: "botania:pixie_dust"
+			id: "0000000000000085"
+			rewards: [
+				{
+					id: "00000000000000B4"
+					item: {
+						Count: 1
+						id: "botania:elementium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000B5"
+					item: {
+						Count: 1
+						id: "botania:elementium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000B6"
+					item: {
+						Count: 1
+						id: "botania:elementium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000B7"
+					item: {
+						Count: 1
+						id: "botania:elementium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000B8"
+					item: {
+						Count: 1
+						id: "botania:elementium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "0000000000000086"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "00000000000000B2"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "00000000000000B3"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+			]
+			title: "Mythical Materials"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000085"]
+			id: "0000000000000087"
+			rewards: [{
+				id: "00000000000000C1"
+				item: {
+					Count: 1
+					id: "aiotbotania:elementium_aiot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0000000000000088"
+					item: {
+						Count: 1
+						id: "botania:elementium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000BA"
+					item: {
+						Count: 1
+						id: "botania:elementium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000BB"
+					item: {
+						Count: 1
+						id: "botania:elementium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000BC"
+					item: {
+						Count: 1
+						id: "botania:elementium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000BD"
+					item: {
+						Count: 1
+						id: "botania:elementium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000BE"
+					item: {
+						Count: 1
+						id: "botania:elementium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000BF"
+					item: {
+						Count: 1
+						id: "botania:elementium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000000C0"
+					item: {
+						Count: 1
+						id: "botania:elementium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F40D35E01322B98"
+					item: {
+						Count: 1
+						id: "botania:elementium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Elementium Tools \\& Armor"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000085"]
+			id: "0000000000000089"
+			rewards: [{
+				id: "00000000000000B9"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000008A"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Flight!"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000077"]
+			dependency_requirement: "all_started"
+			id: "272A35CCC498E54B"
+			rewards: [{
+				id: "5EF1AC22A69B3C7A"
+				item: "botania:open_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "302E9109E84678CC"
+					item: "botania:water_rod"
+					type: "item"
+				}
+				{
+					id: "49A80658F17D54B8"
+					item: "botania:dirt_rod"
+					type: "item"
+				}
+				{
+					id: "6A5C2DF413A055D4"
+					item: "botania:cobble_rod"
+					type: "item"
+				}
+			]
+			title: "Mana Rods!"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0000000000000085"]
+			icon: "botania:gaia_pylon"
+			id: "00000000000000C2"
+			rewards: [{
+				id: "00000000000000CB"
+				table_id: 202L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "00000000000000C3"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "00000000000000C4"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			title: "Gaia Pylons"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000000C2"]
+			id: "00000000000000C7"
+			rewards: [{
+				id: "00000000000000CD"
+				item: "botania:gaia_head"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000000C8"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			title: "Gaia Mana Spreaders!"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000085"]
+			id: "00000000000001F6"
+			rewards: [{
+				id: "00000000000001FA"
+				table_id: 505L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "00000000000001F7"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			title: "Alfsteel"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000001F6"]
+			icon: { Count: 2, id: "mythicbotany:alfheim_rune" }
+			id: "615B08A307B95902"
+			rewards: [{
+				count: 32
+				id: "6791E1670A41E5EA"
+				item: "mythicbotany:rune_holder"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "13B014182E2A7335"
+				item: "mythicbotany:rune_holder"
+				type: "item"
+			}]
+			title: "Rune Holders"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000001F6"]
+			icon: "mythicbotany:gjallar_horn_full"
+			id: "33C9D9068A792DAE"
+			rewards: [{
+				count: 3
+				id: "711F0A24F6A30CDD"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5BA7AF8D2A31166C"
+					item: "mythicbotany:gjallar_horn_empty"
+					type: "item"
+				}
+				{
+					id: "20F4AD1334F882C2"
+					item: "mythicbotany:yggdrasil_branch"
+					type: "item"
+				}
+			]
+			title: "The Gjallarhorn"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"33C9D9068A792DAE"
+				"615B08A307B95902"
+			]
+			id: "752AFC982AA69315"
+			rewards: [{
+				count: 8
+				id: "7DC40A3FD2FF5700"
+				item: "mythicbotany:dream_cherry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EBF5674E6CFCBEC"
+				item: "mythicbotany:kvasir_mead"
+				type: "item"
+			}]
+			title: "The Mead of Kvasir"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["752AFC982AA69315"]
+			id: "7AE6908D3C931624"
+			rewards: [{
+				id: "588D606BDC9D0102"
+				item: "mythicbotany:wither_aconite"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "mythicbotany:alfheim"
+				id: "754EFE41D9F2B9E8"
+				type: "dimension"
+			}]
+			title: "Visit Alfheim, the Realm of the Gods!"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["615B08A307B95902"]
+			id: "26C0A51D52568F01"
+			rewards: [{
+				id: "0647063D6A46AE8C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Are you worthy?"
+			tasks: [{
+				id: "0842E5BEED244829"
+				item: "mythicbotany:mjoellnir"
+				type: "item"
+			}]
+			title: "Mjollnir"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00000000000001F6"]
+			id: "00000000000001FE"
+			rewards: [{
+				id: "0000000000000201"
+				item: "mythicbotany:raindeletia"
+				type: "item"
+			}]
+			subtitle: "Let's hope this isn't like that one ring..."
+			tasks: [
+				{
+					id: "00000000000001FF"
+					item: "mythicbotany:fire_ring"
+					type: "item"
+				}
+				{
+					id: "0000000000000200"
+					item: "mythicbotany:ice_ring"
+					type: "item"
+				}
+			]
+			title: "Magic Rings!"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000001F6"]
+			id: "00000000000001FB"
+			rewards: [{
+				id: "00000000000001FD"
+				item: {
+					Count: 1
+					id: "mythicbotany:alfsteel_pick"
+					tag: {
+						Damage: 0
+						mana: 9999999
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000001FC"
+				item: "mythicbotany:alfsteel_pylon"
+				type: "item"
+			}]
+			title: "Alfsteel Pylons"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0CA3766AE7DA0929"]
+			icon: "botania:apothecary_default"
+			id: "000000000000002F"
+			rewards: [
+				{
+					id: "0000000000000046"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "029BD9517486B665"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0000000000000030"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "0000000000000043"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "The Apothecary"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A95BEC926D4E18F"]
+			icon: "botania:white_mystical_flower"
+			id: "0000000000000031"
+			rewards: [{
+				id: "000000000000004E"
+				table_id: 76L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "0000000000000032"
+					item: "botania:white_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "000000000000004F"
+					item: "botania:orange_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "0000000000000050"
+					item: "botania:magenta_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "0000000000000051"
+					item: "botania:light_blue_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "0000000000000052"
+					item: "botania:yellow_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "0000000000000053"
+					item: "botania:lime_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "0000000000000054"
+					item: "botania:pink_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "0000000000000055"
+					item: "botania:gray_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "0000000000000056"
+					item: "botania:light_gray_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "0000000000000057"
+					item: "botania:cyan_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "0000000000000058"
+					item: "botania:purple_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "0000000000000059"
+					item: "botania:blue_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "000000000000005A"
+					item: "botania:brown_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "000000000000005B"
+					item: "botania:green_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "000000000000005C"
+					item: "botania:red_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "000000000000005D"
+					item: "botania:black_mystical_flower"
+					type: "item"
+				}
+			]
+			title: "Flower Power"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B70A95B4E51EE15"]
+			icon: {
+				Count: 1
+				id: "aiotbotania:manasteel_aiot"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0000000000000039"
+			rewards: [{
+				id: "0000000000000072"
+				item: {
+					Count: 1
+					id: "aiotbotania:manasteel_aiot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "000000000000003A"
+					item: {
+						Count: 1
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "000000000000006A"
+					item: {
+						Count: 1
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "000000000000006B"
+					item: {
+						Count: 1
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "000000000000006C"
+					item: {
+						Count: 1
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "000000000000006D"
+					item: {
+						Count: 1
+						id: "botania:manasteel_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "000000000000006E"
+					item: {
+						Count: 1
+						id: "botania:manasteel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "000000000000006F"
+					item: {
+						Count: 1
+						id: "botania:manasteel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000070"
+					item: {
+						Count: 1
+						id: "botania:manasteel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D69FBD6288134E5"
+					item: {
+						Count: 1
+						id: "botania:manasteel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Manasteel Gear"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"000000000000002F"
+				"0000000000000031"
+			]
+			icon: "botania:endoflame"
+			id: "2261EFA1CE25B59B"
+			rewards: [{
+				count: 2
+				id: "43859BE1680DD51E"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "69DDFE2110AACBDA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:generating_special_flowers"
+						}
+					}
+					title: "Any #botania:generating_special_flowers"
+					type: "item"
+				}
+				{
+					id: "38F7D61352B84B08"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "2F333E852C6EBF97"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+			]
+			title: "Basic Generative Flora"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"000000000000002F"
+				"0000000000000031"
+			]
+			id: "79399C43D7CEACD2"
+			tasks: [{
+				id: "3C2B87BFABE81C92"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["79399C43D7CEACD2"]
+			id: "40607BA72B8C9CE5"
+			tasks: [
+				{
+					count: 16L
+					id: "3207577588981665"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4CF9E043D2F0AC35"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000075"]
+			id: "203DB2854547F323"
+			tasks: [{
+				count: 14L
+				id: "5772296FE08AFA03"
+				item: "botania:blaze_block"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000077"]
+			id: "682A2757E3261594"
+			rewards: [{
+				id: "7111BA3B17109D79"
+				item: "mechanicalbotania:mana_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "080985FE4BB1DA36"
+				item: "mechanicalbotania:spinerette"
+				type: "item"
+			}]
+			title: "Spinerettes"
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2261EFA1CE25B59B"]
+			id: "7B70A95B4E51EE15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27E79403CDB4F075"
+				table_id: 154L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "77C285A104756485"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000083"]
+			id: "216A817F565636C4"
+			subtitle: "Elves love Bread. Right? Right?..."
+			tasks: [{
+				advancement: "botania:challenge/alf_portal_bread"
+				criterion: ""
+				id: "7FD7F81847EF4CBE"
+				title: "Give the Elves some bread..."
+				type: "advancement"
+			}]
+			title: "Give the Elves some Bread..."
+			x: 9.5d
+			y: 0.0d
+		}
+	]
+	title: "&2Ars Botanica"
+}

@@ -1,0 +1,53 @@
+{
+	id: "00000000000000A5"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "botania:terrasteel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:terrasteel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:terrasteel_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:terrasteel_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:terra_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Terra Armor"
+}

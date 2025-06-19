@@ -1,0 +1,13 @@
+name = "Golden Hopper"
+filename = "goldenhopper-forge-1.20.1-1.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f38bc43619f12ac963ee02b6de88cd3cdd49e4b9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4603250
+project-id = 374736

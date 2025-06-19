@@ -1,0 +1,7 @@
+minecraft:overworld
+bloodmagic:dungeon
+minecraft:the_end
+minecraft:the_nether
+mythicbotany:alfheim
+mining_dimension:mining
+oceanworld:deepsea

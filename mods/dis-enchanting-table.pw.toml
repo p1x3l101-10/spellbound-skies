@@ -1,0 +1,13 @@
+name = "Dis-Enchanting Table"
+filename = "disenchanting_table-merged-1.20.1-4.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "effd949ed9ff941c933f2051d58d6f487230a7f1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6274509
+project-id = 933354

@@ -1,0 +1,277 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natures_aura"
+	group: ""
+	icon: "naturesaura:gold_leaf"
+	id: "5B9534AC2EBA3994"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["557EE1C4BE8CEDA4"]
+			id: "0D37B06525EF0EFE"
+			tasks: [{
+				id: "1277AFD493BF9806"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D37B06525EF0EFE"]
+			id: "418BC8E2451B4EF9"
+			tasks: [{
+				id: "473CEBAFB07254DE"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["418BC8E2451B4EF9"]
+			id: "5AEF061429FD4626"
+			tasks: [{
+				id: "18A453626C017438"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AEF061429FD4626"]
+			id: "04C22FE6CE8C34DB"
+			tasks: [{
+				count: 8L
+				id: "0A2F9D30A39B327E"
+				item: { Count: 8, id: "naturesaura:wood_stand" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04C22FE6CE8C34DB"]
+			id: "19D525290CE8AED0"
+			tasks: [
+				{
+					id: "67194780D6A0146F"
+					item: "naturesaura:token_joy"
+					type: "item"
+				}
+				{
+					id: "06560CD0CD20DB19"
+					item: "naturesaura:token_fear"
+					type: "item"
+				}
+				{
+					id: "1BB18C2E3DA996BB"
+					item: "naturesaura:token_sorrow"
+					type: "item"
+				}
+				{
+					id: "049FDE615E6C0352"
+					item: "naturesaura:token_anger"
+					type: "item"
+				}
+			]
+			title: "Tokens"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04C22FE6CE8C34DB"]
+			id: "06070546DF90E7E9"
+			tasks: [{
+				id: "3396A5FDFA8A7A05"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["04C22FE6CE8C34DB"]
+			id: "746B1AC23165F194"
+			tasks: [{
+				id: "3EA52A60175296EB"
+				title: "Aura"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19D525290CE8AED0"]
+			id: "70AEE676E737CDF6"
+			tasks: [{
+				id: "5AA88B483EEB2A64"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70AEE676E737CDF6"]
+			id: "7716B1D3FC700900"
+			tasks: [{
+				id: "3BAE6F11B4B2D069"
+				item: "naturesaura:conversion_catalyst"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70AEE676E737CDF6"]
+			id: "5C2203F9AC94D24E"
+			tasks: [{
+				id: "176009292F8DE7F3"
+				item: "naturesaura:crushing_catalyst"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["477C9D2D28C35FDC"]
+			id: "32B6D993DC0CB5BE"
+			tasks: [{
+				id: "728D6C43D6EDE363"
+				item: "naturesaura:offering_table"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70AEE676E737CDF6"]
+			id: "477C9D2D28C35FDC"
+			tasks: [
+				{
+					id: "6B3930B12BAE6687"
+					item: "naturesaura:infused_iron"
+					type: "item"
+				}
+				{
+					id: "49BF028F67FF1FE6"
+					item: "naturesaura:tainted_gold"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["32B6D993DC0CB5BE"]
+			id: "1F409A262D875B82"
+			tasks: [{
+				id: "2A9EB8611981FA42"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["32B6D993DC0CB5BE"]
+			id: "6092A8664C383459"
+			tasks: [{
+				id: "61BEA769D7FECDBE"
+				item: "naturesaura:depth_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["477C9D2D28C35FDC"]
+			id: "2AD4AB98AAD72DA5"
+			tasks: [{
+				id: "1E623241C1E1EB6C"
+				item: "enigmaticunity:dim_source_generator"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["477C9D2D28C35FDC"]
+			id: "786899408125DD7C"
+			tasks: [{
+				id: "784E6A20520962F1"
+				item: "enigmaticunity:dim_source_producer"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2AD4AB98AAD72DA5"
+				"477C9D2D28C35FDC"
+			]
+			id: "5835D2DADFA6AF63"
+			tasks: [{
+				id: "6A67E2E7227E7C02"
+				item: "enigmaticunity:bright_source_generator"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"786899408125DD7C"
+				"477C9D2D28C35FDC"
+			]
+			id: "2051BE552C03088D"
+			tasks: [{
+				id: "5613716C16E8178D"
+				item: "enigmaticunity:bright_source_producer"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5835D2DADFA6AF63"
+				"1F409A262D875B82"
+			]
+			id: "7A37156FE0EA22F8"
+			tasks: [{
+				id: "2F8824DC799916CC"
+				item: "enigmaticunity:iridescent_source_generator"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"2051BE552C03088D"
+				"1F409A262D875B82"
+			]
+			id: "08CFB016B1515C3E"
+			tasks: [{
+				id: "09B6465D039EDCCB"
+				item: "enigmaticunity:iridescent_source_producer"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.0d
+		}
+	]
+	title: "&aArs Natura"
+}

@@ -1,0 +1,6 @@
+{
+    logAddedRecipes: true,
+    logRemovedRecipes: true,
+    logSkippedRecipes: false,
+    logErroringRecipes: true
+}

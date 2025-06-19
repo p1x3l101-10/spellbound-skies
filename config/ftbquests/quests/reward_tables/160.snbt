@@ -1,0 +1,188 @@
+{
+	id: "00000000000000A0"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:speed"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:strength"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:haste"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:healing"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:jump_boost"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:regen"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:regen_weak"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:resistance"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:fire_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:water_breathing"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:invisibility"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:night_vision"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:absorption"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:overload"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:soul_cross"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:feather_feet"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:emptiness"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:bloodthirst"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:allure"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:clear"
+				}
+			}
+		}
+	]
+	title: "Botania Potions Table"
+}

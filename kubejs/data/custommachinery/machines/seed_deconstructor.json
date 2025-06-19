@@ -1,0 +1,87 @@
+{
+  "name": "Seed Deconstructor",
+  "tooltips": "Deconstructs Seeds for Energy",
+  "appearance": {
+    "running": {
+      "block": "kubejs:machine/seed_deconstructor_model",
+      "light": 15
+    },
+    "idle": {
+      "block": "kubejs:machine/seed_deconstructor_model",
+      "light": 0
+    },
+    "errored": {
+      "block": "kubejs:machine/seed_deconstructor_model",
+      "light": 0
+    }
+  },
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "x": 142,
+      "y": 28,
+      "type": "custommachinery:energy"
+    },
+    {
+      "id": "input",
+      "x": 90,
+      "y": 40,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input2",
+      "x": 191,
+      "y": 60,
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 112,
+      "y": 42,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 236,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+    {
+      "text": "Seed Deconstructor",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    }
+  ],
+  "components": [
+    {
+      "id": "input",
+      "mode": "input",
+      "type": "custommachinery:item"
+    },
+    {
+      "id": "input2",
+      "mode": "input",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade"
+    },
+    {
+      "id": "energy",
+      "type": "custommachinery:energy",
+      "capacity": 5000,
+      "maxInput": 400,
+      "maxOutput": 400,
+      "config": {
+        "default": "output"
+      }
+    }
+  ]
+}

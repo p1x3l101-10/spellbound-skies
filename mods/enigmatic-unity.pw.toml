@@ -1,0 +1,13 @@
+name = "Enigmatic Unity"
+filename = "enigmaticunity-1.9.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "62aa1d4bb8facf577b4c395400480543d5db96d1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6460296
+project-id = 808025

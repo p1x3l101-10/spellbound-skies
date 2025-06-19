@@ -1,0 +1,13 @@
+name = "The Cooler Hopper"
+filename = "the_cooler_hopper-1.0.0-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "153e7bda81f371681c0510260069286586d4fbf0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5822471
+project-id = 1123688

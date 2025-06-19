@@ -1,0 +1,13 @@
+{
+	icon: "botania:blacker_lotus"
+	id: "23EBE038AC213264"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 4, item: "botania:blacker_lotus", weight: 2.0f }
+		{ item: "botania:blacker_lotus", weight: 5.0f }
+		{ count: 4, item: "botania:black_lotus", weight: 5.0f }
+		{ item: "botania:black_lotus", weight: 20.0f }
+	]
+	title: "mana"
+}

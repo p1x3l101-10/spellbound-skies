@@ -1,0 +1,13 @@
+name = "DeepMobLearningReloaded"
+filename = "DeepMobLearningReloadedMod-forge-mc1.20.1-3.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e4b56ae7e2ac472bca5fe9b567eff8777b7e2f73"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6079314
+project-id = 883453

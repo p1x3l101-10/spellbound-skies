@@ -1,0 +1,13 @@
+name = "CustomMachinery (Fork)"
+filename = "CustomMachinery-forge-1.20.1-0.10.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a0b96033e088ee3c9801cc6f9a74064618b84556"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5733206
+project-id = 1058446

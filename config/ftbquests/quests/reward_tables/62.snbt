@@ -1,0 +1,53 @@
+{
+	id: "000000000000003E"
+	loot_size: 1
+	order_index: 33
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:stone_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:stone_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:stone_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Stone Tools"
+}

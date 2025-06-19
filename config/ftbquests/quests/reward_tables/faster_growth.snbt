@@ -1,0 +1,23 @@
+{
+	icon: "botania:overgrowth_seed"
+	id: "00C03BC4B15EE355"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 5, item: "mysticalagriculture:inferium_growth_accelerator", weight: 50.0f }
+		{ count: 5, item: "mysticalagriculture:prudentium_growth_accelerator", weight: 30.0f }
+		{ count: 3, item: "mysticalagriculture:tertium_growth_accelerator", weight: 20.0f }
+		{ count: 2, item: "mysticalagriculture:imperium_growth_accelerator", weight: 10.0f }
+		{ item: "mysticalagriculture:supremium_growth_accelerator", weight: 5.0f }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:harvest_goddess_band"
+			}
+		}
+	]
+	title: "Faster Growth"
+}

@@ -1,0 +1,32 @@
+{
+	id: "51C7B9DD33B5093F"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+		{
+			type: "xp_levels"
+			weight: 2.0f
+			xp_levels: 4
+		}
+		{
+			type: "xp_levels"
+			weight: 5.0f
+			xp_levels: 3
+		}
+		{
+			type: "xp_levels"
+			weight: 5.0f
+			xp_levels: 2
+		}
+		{
+			type: "xp_levels"
+			weight: 10.0f
+			xp_levels: 1
+		}
+	]
+	title: "xp_f"
+}

@@ -1,0 +1,13 @@
+name = "Shut Up GL Error"
+filename = "Shut Up GL Error-forge-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "99a47ef4dcb152f276a69e2e2c16e6bae9f10155"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4691165
+project-id = 900855

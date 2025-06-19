@@ -1,0 +1,13 @@
+name = "Tax' Ocean Pillager"
+filename = "TaxOceanPillager+M.1.20.1+ForM.1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "170dd472912185cd35a822287d54858c6e1682ac"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4605323
+project-id = 878092

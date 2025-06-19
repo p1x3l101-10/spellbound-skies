@@ -1,0 +1,14 @@
+{
+	icon: "mysticalagradditions:creative_essence"
+	id: "6F6CD9737E2D5A53"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 10, item: "mysticalagriculture:prudentium_essence", weight: 33.0f }
+		{ count: 5, item: "mysticalagriculture:tertium_essence", weight: 23.0f }
+		{ count: 2, item: "mysticalagriculture:imperium_essence", weight: 10.0f }
+		{ item: "mysticalagriculture:supremium_essence", weight: 3.0f }
+		{ item: "mysticalagradditions:insanium_essence" }
+	]
+	title: "essence"
+}

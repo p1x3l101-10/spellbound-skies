@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "Y#Y",
+    "ZYZ"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:kelp"
+    },
+    "X": {
+        "item": "minecraft:prismarine_shard"
+    },
+    "Y": {
+      "item": "minecraft:sponge"
+    },
+    "Z": {
+      "item": "minecraft:sea_pickle"
+    }
+  },
+  "result": {
+    "item": "oceanworld:sea_key"
+  }
+}

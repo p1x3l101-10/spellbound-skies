@@ -1,0 +1,13 @@
+name = "Sulfar Mod"
+filename = "Sulfar Mod 1.0.0  - 1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc5e24eb47a64a2c0b87779eace8bdbf8537015c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5507310
+project-id = 534428

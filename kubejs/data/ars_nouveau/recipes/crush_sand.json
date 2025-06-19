@@ -1,0 +1,21 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+        "item": "minecraft:sand"
+    },
+    "output": [
+        {
+            "chance": 0.25,
+            "count": 1,
+            "item": "minecraft:clay_ball",
+            "maxRange": 2
+        },
+        {
+            "chance": 0.15,
+            "count": 1,
+            "item": "minecraft:redstone",
+            "maxRange": 2
+        }
+    ],
+    "skip_block_place": true
+}

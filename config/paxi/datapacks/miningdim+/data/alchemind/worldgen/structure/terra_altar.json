@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "alchemind:terra_altar/terra_altar",
+  "size": 2,
+  "max_distance_from_center": 80,
+  "biomes": ["mining_dimension:mining"],
+
+  "step": "underground_structures",
+
+  "start_height": { "absolute": 35 },
+
+  "use_expansion_hack": false,
+  "spawn_overrides": { }
+}

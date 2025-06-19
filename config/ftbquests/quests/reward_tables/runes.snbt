@@ -1,0 +1,12 @@
+{
+	id: "39047A01BF11FE39"
+	loot_size: 4
+	order_index: 38
+	rewards: [
+		{ item: "bloodmagic:speedrune" }
+		{ item: "bloodmagic:sacrificerune" }
+		{ item: "bloodmagic:selfsacrificerune" }
+		{ item: "bloodmagic:altarcapacityrune" }
+	]
+	title: "runes"
+}

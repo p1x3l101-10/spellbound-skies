@@ -1,0 +1,27 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+        "item": "minecraft:amethyst_block"
+    },
+    "output": [
+        {
+            "chance": 1,
+            "count": 1,
+            "item": "hexcasting:amethyst_dust_block",
+            "maxRange": 1
+        },
+        {
+            "chance": 0.75,
+            "count": 1,
+            "item": "minecraft:amethyst_shard",
+            "maxRange": 3
+        },
+        {
+            "chance": 0.15,
+            "count": 1,
+            "item": "hexcasting:charged_amethyst",
+            "maxRange": 1
+        }
+    ],
+    "skip_block_place": false
+}

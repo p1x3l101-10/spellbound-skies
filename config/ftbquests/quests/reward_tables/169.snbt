@@ -1,0 +1,437 @@
+{
+	id: "00000000000000A9"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 5
+					}]
+				}
+			}
+			title: "Protection V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fire_protection"
+						lvl: 5
+					}]
+				}
+			}
+			title: "Fire Protection V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 5
+					}]
+				}
+			}
+			title: "Feather Falling V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:blast_protection"
+						lvl: 5
+					}]
+				}
+			}
+			title: "Blast Protection V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:projectile_protection"
+						lvl: 5
+					}]
+				}
+			}
+			title: "Projectile Protection V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:respiration"
+						lvl: 4
+					}]
+				}
+			}
+			title: "Respiration IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:aqua_affinity"
+						lvl: 2
+					}]
+				}
+			}
+			title: "Aqua Affinity II"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:thorns"
+						lvl: 4
+					}]
+				}
+			}
+			title: "Thorns IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:depth_strider"
+						lvl: 4
+					}]
+				}
+			}
+			title: "Depth Strider IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 6
+					}]
+				}
+			}
+			title: "Sharpness VI"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:smite"
+						lvl: 6
+					}]
+				}
+			}
+			title: "Smite VI"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:bane_of_arthropods"
+						lvl: 6
+					}]
+				}
+			}
+			title: "Bane of Arthropods VI"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:knockback"
+						lvl: 3
+					}]
+				}
+			}
+			title: "Knockback III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fire_aspect"
+						lvl: 3
+					}]
+				}
+			}
+			title: "Fire Aspect III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 4
+					}]
+				}
+			}
+			title: "Looting IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sweeping"
+						lvl: 4
+					}]
+				}
+			}
+			title: "Sweeping Edge IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 6
+					}]
+				}
+			}
+			title: "Efficiency VI"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:silk_touch"
+						lvl: 2
+					}]
+				}
+			}
+			title: "Silk Touch II"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 4
+					}]
+				}
+			}
+			title: "Unbreaking IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 4
+					}]
+				}
+			}
+			title: "Fortune IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:power"
+						lvl: 6
+					}]
+				}
+			}
+			title: "Power VI"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:punch"
+						lvl: 3
+					}]
+				}
+			}
+			title: "Punch III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:flame"
+						lvl: 2
+					}]
+				}
+			}
+			title: "Flame II"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:infinity"
+						lvl: 2
+					}]
+				}
+			}
+			title: "Infinity II"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:luck_of_the_sea"
+						lvl: 4
+					}]
+				}
+			}
+			title: "Luck of the Sea IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:lure"
+						lvl: 4
+					}]
+				}
+			}
+			title: "Lure IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:loyalty"
+						lvl: 4
+					}]
+				}
+			}
+			title: "Loyalty IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:impaling"
+						lvl: 6
+					}]
+				}
+			}
+			title: "Impaling VI"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:riptide"
+						lvl: 4
+					}]
+				}
+			}
+			title: "Riptide IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:channeling"
+						lvl: 2
+					}]
+				}
+			}
+			title: "Channeling II"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:multishot"
+						lvl: 2
+					}]
+				}
+			}
+			title: "Multishot II"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:quick_charge"
+						lvl: 4
+					}]
+				}
+			}
+			title: "Quick Charge IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:piercing"
+						lvl: 5
+					}]
+				}
+			}
+			title: "Piercing V"
+		}
+	]
+	title: "Enchanted Books"
+}

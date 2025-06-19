@@ -1,0 +1,11 @@
+{
+	id: "0000000000000096"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ item: "botania:monocle" }
+		{ count: 4, item: "botania:endoflame" }
+		{ count: 2, item: "botania:spark" }
+	]
+	title: "Plate Table"
+}

@@ -1,0 +1,20 @@
+{
+    "item": "minecraft:iron_ingot",
+    "machines": [
+        "custommachinery:seed_deconstructor"
+    ],
+    "modifiers": [
+        {
+            "requirement": "custommachinery:speed",
+            "mode": "input",
+            "operation": "multiplication",
+            "modifier": 0.5
+        },
+        {
+            "requirement": "custommachinery:energy_per_tick",
+            "mode": "output",
+            "operation": "multiplication",
+            "modifier": 2
+        }
+    ]
+}

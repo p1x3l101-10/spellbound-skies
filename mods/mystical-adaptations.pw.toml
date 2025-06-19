@@ -1,0 +1,13 @@
+name = "Mystical Adaptations"
+filename = "MysticalAdaptations-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1bc3c63ba8e1b3aea1fa0f3589dd215d246ac089"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4955398
+project-id = 325892

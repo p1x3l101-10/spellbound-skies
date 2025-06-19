@@ -1,0 +1,12 @@
+{
+	id: "2F54F897A6FC12A9"
+	loot_size: 1
+	order_index: 37
+	rewards: [
+		{ item: "occultism:ritual_dummy/summon_foliot_crusher" }
+		{ item: "occultism:ritual_dummy/summon_djinni_crusher" }
+		{ item: "occultism:ritual_dummy/summon_afrit_crusher" }
+		{ item: "occultism:ritual_dummy/summon_marid_crusher" }
+	]
+	title: "Crushing Spirits"
+}

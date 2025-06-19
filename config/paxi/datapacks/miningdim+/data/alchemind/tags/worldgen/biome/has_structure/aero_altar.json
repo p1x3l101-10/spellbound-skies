@@ -1,0 +1,17 @@
+{
+  "replace": true,
+  "values": [
+    "#is_beach",
+    "#is_river",
+    "minecraft:ocean",
+    "minecraft:cold_ocean",
+    "minecraft:warm_ocean",
+    "minecraft:lukewarm_ocean",
+    "minecraft:frozen_ocean",
+    "#minecraft:is_savanna",
+    "#minecraft:is_taiga",
+    "#minecraft:is_forest",
+    "#minecraft:is_badlands",
+    "#minecraft:is_jungle"
+  ]
+}

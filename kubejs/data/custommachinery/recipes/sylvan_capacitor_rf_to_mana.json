@@ -1,0 +1,17 @@
+{
+    "type": "custommachinery:custom_machine",
+    "machine": "custommachinery:sylvan_capacitor",
+    "time": 20,
+    "requirements": [
+        {
+            "type": "custommachinery:energy_per_tick",
+            "amount": 1,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:mana_per_tick",
+            "mode": "output",
+            "mana": 8
+        }
+    ]
+}

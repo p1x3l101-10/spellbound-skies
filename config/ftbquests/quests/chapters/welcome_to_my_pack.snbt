@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_my_pack"
+	group: ""
+	id: "31E5BD64E3D3EDC1"
+	images: [{
+		click: "https://discord.gg/UZPumm8s7r"
+		height: 1.0d
+		hover: ["Click Here to Join the Discord!"]
+		image: "supplementaries:textures/gui/book/icon/discord.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: -1.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Disclaimer: Certain chapters of the questbook are not completed(although they are mostly complete), you can expect the questbook to change slightly and become more filled out with updates. Feature wise the pack is completed so you can expect features to stay the same from update to update with maybe slight recipe tweaks"
+			""
+			"Since this pack is in beta, I encourage any kind of player feedback I can use to make this pack better and more fun! This pack is somewhat open ended in that there are several mods you can use to achieve your goals, I favor player freedom and creativity over locking things into a strict progression. I hope you have fun and I encourage you to try out new mods and things you may not have messed with before!"
+			""
+			"Overall, thanks for playing my pack!"
+		]
+		icon: {
+			Count: 1
+			id: "ftbquests:custom_icon"
+			tag: {
+				Icon: "emi_loot:textures/gui/steve.png"
+			}
+		}
+		id: "4A397F6342364642"
+		subtitle: "Read the Description!"
+		tasks: [{
+			id: "591AB736AFA8C549"
+			title: "Welcome!"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&2Welcome to my Pack!"
+}

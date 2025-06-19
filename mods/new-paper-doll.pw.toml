@@ -1,0 +1,13 @@
+name = "Paper Doll [Forge & Fabric]"
+filename = "PaperDoll-v8.0.0-1.20.1-Forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6fc76c8d7969a203e15fe7c6df69a8038955121d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4613436
+project-id = 857970

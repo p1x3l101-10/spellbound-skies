@@ -1,0 +1,13 @@
+name = "SpellboundSkiesCustom"
+filename = "spellboundskies-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a78dad3cb41382b8f8beffd22ed08305b1ca5806"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6530381
+project-id = 1259074

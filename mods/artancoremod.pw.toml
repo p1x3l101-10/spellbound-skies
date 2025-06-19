@@ -1,0 +1,13 @@
+name = "Artan'sProjectCoreMod (Forge&Fabric)"
+filename = "Artan'sProjectCoreMOD-forge-mc1.20.1-4.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "117982e65c25648e1be7b0b3f0090299c07dbf6e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5646913
+project-id = 585454

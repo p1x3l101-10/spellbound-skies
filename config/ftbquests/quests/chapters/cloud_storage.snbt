@@ -1,0 +1,236 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cloud_storage"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "cloudstorage:balloon_buddy"
+		tag: {
+			Personality: 3
+			color: 15149353
+		}
+	}
+	id: "123D6075C06EED0C"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37129673918B4F75"]
+			description: ["Cloud Storage will allow you to create large storage networks in a vanilla friendly way!"]
+			id: "09163DA99202BCE0"
+			subtitle: "Real Cloud Storage!?"
+			tasks: [{
+				id: "3682B7141818AE35"
+				item: "cloudstorage:guide_book"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09163DA99202BCE0"]
+			description: ["These are dropped by Badloons which spawn around the big balloon structure in the sky or can spawn anywhere above y:150"]
+			id: "5EF3490B59618751"
+			rewards: [{
+				count: 12
+				id: "2FCE6C912E1D389A"
+				item: "cloudstorage:balloon_bit"
+				type: "item"
+			}]
+			subtitle: "Gather some Balloon Pieces"
+			tasks: [{
+				count: 4L
+				id: "40C5232B6509AFCE"
+				item: "cloudstorage:balloon_bit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5EF3490B59618751"]
+			description: ["These balloons are also dyeable with a vast amount of colors, more than vanilla colors typically allow; just try to mix and match what dyes for some unique colors. Keep in mind the color of a balloon will correspond to the respective storage space in your cloud network. Meaning, any storage uploaded with a certain color balloon will only be accessible with the same color balloon-cloud chest duo."]
+			id: "1DE0787BD6EA7CF7"
+			rewards: [
+				{
+					id: "7E4180E5999BDB34"
+					item: {
+						Count: 1
+						id: "cloudstorage:balloon_buddy"
+						tag: {
+							Personality: 3
+							color: 15149353
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4B64761A5B72D478"
+					item: "cloudstorage:balloon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E731D29B27C38C9"
+				item: "cloudstorage:balloon"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["09163DA99202BCE0"]
+			description: ["These drop from Bloviator mobs, they spawn around the sky temple structure or anywhere above y:150"]
+			id: "548500B73019BCD8"
+			rewards: [{
+				count: 8
+				id: "74C468B053F216E1"
+				item: "cloudstorage:cloud"
+				type: "item"
+			}]
+			subtitle: "Gather some Clouds"
+			tasks: [{
+				count: 8L
+				id: "4C9F6781D4654D90"
+				item: "cloudstorage:cloud"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["548500B73019BCD8"]
+			description: ["These drop from Static Bloviators, which spawn in stormy weather. Static Cloud blocks can also be made with standard Clouds and a Pure Daisy."]
+			id: "6A1E83EB97D2AEDA"
+			rewards: [{
+				count: 8
+				id: "7E41B20554F6531A"
+				item: "cloudstorage:static_cloud"
+				type: "item"
+			}]
+			subtitle: "Gather some Static Clouds"
+			tasks: [{
+				count: 8L
+				id: "2EE41DF319A302B6"
+				item: "cloudstorage:static_cloud"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["548500B73019BCD8"]
+			description: [
+				"These chests will allow you to access your cloud network from anywhere once a balloon is tied to them(they do need to have a clear line to the sky above though), remember the color is important!"
+				""
+				"Also note, hoppers and other IO will not work with the standard cloud chest, you will need the static cloud chest for that!"
+			]
+			id: "7352DA40287730C7"
+			rewards: [{
+				count: 8
+				id: "412729CEE93BD7C3"
+				item: "cloudstorage:cloud"
+				type: "item"
+			}]
+			subtitle: "Storage Networks!"
+			tasks: [{
+				id: "5B39E9C040C60386"
+				item: "cloudstorage:cloud_chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A1E83EB97D2AEDA"]
+			description: ["Just like the standard cloud chest except these allow for IO in and out of your cloud storage network!"]
+			id: "2A200A73E2DCD130"
+			rewards: [{
+				count: 8
+				id: "4D82DCFFD5CCECED"
+				item: "cloudstorage:static_cloud"
+				type: "item"
+			}]
+			subtitle: "Now with IO!"
+			tasks: [{
+				id: "7EE6E236BD031480"
+				item: "cloudstorage:static_cloud_chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1DE0787BD6EA7CF7"]
+			id: "6B6979FF002600F8"
+			rewards: [{
+				id: "0C3755DFA124929F"
+				item: "cloudstorage:balloon_stand"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "cloudstorage:cloudstorage/upload"
+				criterion: ""
+				id: "371DFB980B09B597"
+				title: "Upload a Chest to the Clouds!"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["09163DA99202BCE0"]
+			description: ["Visit one of the Hot Air Balloons in the Sky!"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cloudstorage:block/cloud"
+				}
+			}
+			id: "6E532EC8C4847357"
+			rewards: [{
+				id: "42810CCDC5BEC476"
+				item: "cloudstorage:happy_cloud_in_a_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3304DFF13DD21EB8"
+				structure: "cloudstorage:big_balloon"
+				type: "structure"
+			}]
+			title: "Hot Air Balloons!?"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["09163DA99202BCE0"]
+			description: ["Visit the strange temple structure in the sky..."]
+			id: "5D6EE54EC97D214F"
+			rewards: [{
+				id: "11C51531F986D86D"
+				item: "cloudstorage:cloud_blower"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cloudstorage:block/static_cloud"
+					}
+				}
+				id: "543EFD976C66CA30"
+				structure: "cloudstorage:sky_temple"
+				title: "Temple in the Sky"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+	]
+	title: "&fArs Nubium"
+}

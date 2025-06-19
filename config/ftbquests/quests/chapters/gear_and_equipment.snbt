@@ -1,0 +1,544 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "gear_and_equipment"
+	group: ""
+	icon: "bagofholding:golden_bag_of_holding"
+	id: "1992F86F3BDB7666"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["Grants mana regen when an attack is blocked. Repairs from the holders mana over time."]
+			id: "14D75769B9098DC7"
+			rewards: [{
+				id: "7A453104FD23452D"
+				item: {
+					Count: 1
+					id: "ars_elemental:caster_bag"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C62B3BF9833D767"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["Provides an addititional Touch form and a free amplify. Casts spells after the sword attacks a target.\\n\\nRepairs with the users mana."]
+			id: "27E928F3752CA5E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14028FCF607C6DC0"
+				table_id: 857495032092348212L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70D7B99CD437DE8B"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["Provides a free Projectile -> Accelerate, allowing the user to create larger spells."]
+			id: "1A2F2EDAFC7C6C66"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D8A7C1A5356D47F"
+					table_id: 857495032092348212L
+					type: "random"
+				}
+				{
+					id: "4ED8335632F9F75B"
+					item: {
+						Count: 1
+						id: "ars_nouveau:caster_tome"
+						tag: {
+							"ars_nouveau:caster": {
+								current_slot: 0
+								flavor: "A classic."
+								hidden_recipe: ""
+								is_hidden: 0b
+								spell_count: 1
+								spells: {
+									spell0: {
+										name: "Fireball!"
+										recipe: {
+											part0: "ars_nouveau:glyph_projectile"
+											part1: "ars_nouveau:glyph_ignite"
+											part2: "ars_nouveau:glyph_explosion"
+											part3: "ars_nouveau:glyph_amplify"
+											part4: "ars_nouveau:glyph_amplify"
+											part5: "ars_nouveau:glyph_aoe"
+											part6: "ars_nouveau:glyph_aoe"
+											size: 7
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: { }
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+										}
+									}
+								}
+							}
+							display: {
+								Name: "{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"Fireball!\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0320EF661A0720C3"
+				item: {
+					Count: 1
+					id: "ars_nouveau:wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["With this focus equipped, spells that move, create, or change blocks will have their spell adjusted to target the new entity or block created.\\n\\nFor a list of spell ideas and possibilities, see the Worn Notebook entry."]
+			id: "2A821F6CEDCF1FB2"
+			rewards: [{
+				id: "03F4F5C065A016A5"
+				item: {
+					Count: 1
+					id: "ars_elemental:curio_bag"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B22DFD52216BEE0"
+				item: "ars_nouveau:shapers_focus"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["Allows the user to hover and move a short distance above the ground. To activate, sneak while in the air.\\n\\nRuduces fall damage by 6 blocks."]
+			id: "5A21DF68C69794F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33FD18457E2B9C90"
+				table_id: 857495032092348212L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A02AAB1E8F3264F"
+				item: "ars_nouveau:belt_of_levitation"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["Voids listed items on pickup and grants the holder Mana for each item consumed.\\n\\nUse the jar to enable it, and hold an item in the offhand to add it to the list."]
+			id: "7BB0DDEF328A4A1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "195C0B65F2D1ADE4"
+				table_id: 857495032092348212L
+				type: "random"
+			}]
+			tasks: [{
+				id: "68D0A8D61CB9F26B"
+				item: "ars_nouveau:void_jar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["Discounts spells by a small amount."]
+			id: "51A882C9DAF0EE4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "201203E1DF88F272"
+				table_id: 857495032092348212L
+				type: "random"
+			}]
+			tasks: [{
+				id: "780D177AD1464F6E"
+				item: "ars_nouveau:ring_of_lesser_discount"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["Increases mana regen."]
+			id: "38C3DF3DA00EA9E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C4A308739316297"
+				table_id: 857495032092348212L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48DBC8C063F7F807"
+				item: "ars_nouveau:amulet_of_mana_regen"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["Fires Spell Arrows, dealing additional damage with Arrows or operating without. Provides a free Projectile, allowing the user to create larger spells.\\n\\nRepairs with the users mana."]
+			id: "36B3477F77D1A0C7"
+			rewards: [{
+				count: 32
+				id: "79919B79B3F05B7B"
+				item: "ars_nouveau:amplify_arrow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16BB4616F5BB47A9"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["Fires Spell Arrows like the bow, but expends their mana cost when the arrow is charged.\\n\\nRepairs with the users mana."]
+			id: "5E6D6D4F39333627"
+			rewards: [{
+				count: 32
+				id: "14E09E6C56303751"
+				item: "ars_nouveau:split_arrow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B6E081718856424"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_crossbow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["Provides a free Self form and increases the duration of all spell effects."]
+			id: "4A64F9DFBE022CB9"
+			rewards: [{
+				count: 2
+				id: "50D8E926F606B2CF"
+				item: "ars_elemental:spell_mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D9E92CA413FAB89"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_mirror"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["Spawns a light block as the user moves or provides permanent dynamic lighting if enabled.\\n\\nTo enable Dynamic Lighting, use `/ars-lights on` or enable it from your spellbook."]
+			id: "02377E6F4C466FAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CE7717C0B699542"
+				table_id: 857495032092348212L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03AE74373BC200E6"
+				item: "ars_nouveau:jar_of_light"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["Increases the damage of air spells. Also grants passive speed and knockback."]
+			id: "4A63A6C7E8C2EC9D"
+			rewards: [{
+				count: 2
+				id: "6120264506DCBCF0"
+				item: "ars_elemental:base_bangle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43D1A14C1C4B182A"
+				item: "ars_elemental:air_bangle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34602A8B5EB8F541"]
+			description: ["Many items and useful pieces of gear are at your disposal in this pack, don't be afraid to test out new things!"]
+			hide_until_deps_visible: true
+			id: "632AD43DFB1E7DB7"
+			tasks: [{
+				id: "7579FBE4232EA91D"
+				title: "Gear and Equipment"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			id: "205DCDADC7B500B9"
+			rewards: [{
+				id: "5FF3DB5B82086686"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A builder's best friend, this extension is going to be handy when reaching far and is perfect for building not only aesthetically, but also machinery with practicality."
+			tasks: [{
+				id: "5254527325B1F219"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			id: "00F11AE1E586D83D"
+			rewards: [{
+				id: "1297BF7386F047F8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Potato Cannons are a classic weapon to have, just remember to have suitable ammo in your inventory or this thing is useless."
+			tasks: [{
+				id: "07F923188419D3B7"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			id: "5403A239E1F1C4D3"
+			rewards: [{
+				id: "51907FD9732C7D0D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "So a conductor's cap is actually a very versatile item that allows one to create essentially a Create Golem. Ponder about its uses and consider this golem an assistant you'll need."
+			tasks: [{
+				id: "45AB837D1A05E10E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "railways:conductor_caps"
+					}
+				}
+				title: "Any Conductor Cap"
+				type: "item"
+			}]
+			title: "Conductor's Cap"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			id: "0E00A3ADA8D517DC"
+			tasks: [{
+				id: "7F8A1CB44486D75A"
+				item: "bagofholding:leather_bag_of_holding"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0E00A3ADA8D517DC"]
+			hide_dependency_lines: false
+			id: "2ED88C72723E52EE"
+			tasks: [{
+				id: "3A14C0C944F745DD"
+				item: "bagofholding:iron_bag_of_holding"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2ED88C72723E52EE"]
+			hide_dependency_lines: false
+			id: "5C44CA4F7B2FDD83"
+			tasks: [{
+				id: "4425B06E358D58C9"
+				item: "bagofholding:golden_bag_of_holding"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			id: "67521190E7A4478D"
+			rewards: [{
+				id: "0CA98E7F8C557B32"
+				item: "bagofholding:leather_bag_of_holding"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00B1D4FB8E96E893"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			id: "7C0CE718FD73B418"
+			rewards: [{
+				id: "08694596534A36B0"
+				item: {
+					Count: 1
+					id: "ars_artifice:spell_storing_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57E922727829F407"
+				item: "ars_elemental:caster_bag"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			id: "41E32099B1CDD7A3"
+			rewards: [{
+				id: "5B10F8EC5B6C0FCA"
+				item: "bagofholding:leather_bag_of_holding"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A1CE1459C8F5428"
+				item: {
+					Count: 1
+					id: "ars_additions:handy_haversack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			description: ["The time in a bottle can temporarily speed up blocks, how much you can speed things up is limited by how long you have had this item in your inventory."]
+			id: "0D9714FC638EE0D9"
+			rewards: [{
+				id: "142DDEC7A803F07F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26F35336D6F3ADEB"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["632AD43DFB1E7DB7"]
+			id: "69BBF8D6FDDA5A9B"
+			rewards: [{
+				id: "3A26AB836FC956AC"
+				item: "ars_technica:spy_monocle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2236421240146706"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+	]
+	title: "Ars Instrumentum"
+}

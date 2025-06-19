@@ -1,0 +1,42 @@
+
+["General Settings"]
+	#Number of ticks required for fartilization (default = 20 ticks, ~1 second)
+	#Range: 1 ~ 1200
+	ticksPerFartilization = 20
+	#Chance for fartilization to affect a block (0.0 - 1.0), default = 0.35 (35%)
+	#Range: 0.0 ~ 1.0
+	fartilizeChance = 0.35
+	#Radius (in blocks) where fartilization takes effect (default = 5). High values may cause lag.
+	#Range: 1 ~ 32
+	fartilizeRadius = 5
+	#If true, a sound effect is played during fartilization
+	soundEnabled = true
+	#If true, sugarcane will be affected by fartilization
+	sugarCaneEnabled = true
+	#If true, bamboo will be affected by fartilization
+	bambooEnabled = true
+	#If true, sweet berry bushes will be affected by fartilization
+	sweetBerriesEnabled = true
+	#If true, kelp will be affected by fartilization
+	kelpEnabled = true
+	#If true, regular vines will be affected by fartilization
+	vinesEnabled = true
+	#If true, weeping vines will be affected by fartilization
+	weepingVinesEnabled = true
+	#If true, twisting vines will be affected by fartilization
+	twistingVinesEnabled = true
+	#If true, nether wart will be affected by fartilization
+	netherWartEnabled = true
+	#If true, cactus will be affected by fartilization
+	cactusEnabled = true
+	#If true, cocoa beans will be affected by fartilization
+	cocoaEnabled = true
+	#If true, Ars Nouveau/Ars Elemental pods will grow like cocoa beans.
+	arsPodsEnabled = true
+	#If true, amethyst buds will be affected by fartilization
+	amethystEnabled = true
+	#If true, pumpkin stems will be affected by fartilization
+	pumpkinEnabled = true
+	#If true, melon stems will grow like cocoa beans.
+	melonEnabled = true
+

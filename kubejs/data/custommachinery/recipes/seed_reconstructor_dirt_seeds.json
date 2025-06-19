@@ -1,0 +1,36 @@
+{
+    "type": "custommachinery:custom_machine",
+    "machine": "custommachinery:seed_reconstructor",
+    "time": 20,
+    "requirements": [
+        {
+            "type": "custommachinery:item",
+            "item": "minecraft:dirt",
+            "amount": 4,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "item": "mysticalagriculture:inferium_essence",
+            "amount": 4,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "item": "mysticalagriculture:inferium_seeds",
+            "amount": 1,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:energy_per_tick",
+            "amount": 5,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "item": "mysticalagriculture:dirt_seeds",
+            "amount": 1,
+            "mode": "output"
+        }
+    ]
+}

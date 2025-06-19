@@ -1,0 +1,69 @@
+{
+    "name": "Sylvan Capacitor",
+    "tooltips": "Converts RF Energy into Mana",
+    "appearance": {
+        "running": {
+            "block": "kubejs:machine/sylvan_capacitor_model",
+            "light": 15
+        },
+        "idle": {
+            "block": "kubejs:machine/sylvan_capacitor_model",
+            "light": 0
+        },
+        "errored": {
+            "block": "kubejs:machine/sylvan_capacitor_model",
+            "light": 0
+        }
+    },
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "type": "custommachinery:player_inventory",
+            "x": 47,
+            "y": 80
+        },
+        {
+            "type": "custommachinery:energy",
+            "x": 30,
+            "y": 30
+        },
+        {
+            "type": "custommachinery:mana",
+            "x": 60,
+            "y": 30
+        },
+        {
+            "type": "custommachinery:status",
+            "x": 236,
+            "y": 5
+        },
+        {
+            "type": "custommachinery:text",
+            "text": "Sylvan Capacitor",
+            "x": 7,
+            "y": 5
+        }
+    ],
+    "components": [
+        {
+            "type": "custommachinery:energy",
+            "id": "energy",
+            "capacity": 5000,
+            "maxInput": 1000,
+            "maxOutput": 100
+        },
+        {
+            "type": "custommachinery:mana",
+            "id": "mana",
+            "capacity": 5000,
+            "maxInput": 100,
+            "maxOutput": 10,
+            "mode": "both"
+        }
+    ]
+}

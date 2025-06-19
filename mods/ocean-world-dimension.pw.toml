@@ -1,0 +1,13 @@
+name = "Ocean World Dimension"
+filename = "oceanworld-0.2-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fdb9b3c6e2163d59169b4c8f05c6645a5ff8b2d1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4632086
+project-id = 653217

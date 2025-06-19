@@ -1,0 +1,13 @@
+name = "JamLib"
+filename = "jamlib-forge-1.3.2+1.20.1-patch.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e015c003c89092c7370d2326d19268e9a423448a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6322182
+project-id = 623764

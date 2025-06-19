@@ -1,0 +1,139 @@
+{
+  "name": "Seed Reconstructor",
+  "tooltips": "Reconstructs Seeds into New Seeds",
+  "appearance": {
+    "running": {
+      "block": "kubejs:machine/seed_reconstructor_model",
+      "light": 15
+    },
+    "idle": {
+      "block": "kubejs:machine/seed_reconstructor_model",
+      "light": 0
+    },
+    "errored": {
+      "block": "kubejs:machine/seed_reconstructor_model",
+      "light": 0
+    }
+  }, 
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "x": 35,
+      "y": 30,
+      "type": "custommachinery:energy"
+    },
+    {
+      "id": "input1",
+      "x": 80,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input2",
+      "x": 60,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input3",
+      "x": 70,
+      "y": 50,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output1",
+      "x": 145,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output2",
+      "x": 165,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output3",
+      "x": 145,
+      "y": 50,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output4",
+      "x": 165,
+      "y": 50,
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 110,
+      "y": 40,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 236,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+    {
+      "text": "Seed Reconstructor",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    }
+  ],
+  "components": [
+    {
+      "id": "input1",
+      "mode": "input",
+      "type": "custommachinery:item"
+    },
+    {
+      "id": "input2",
+      "mode": "input",
+      "type": "custommachinery:item"
+    },
+    {
+      "id": "input3",
+      "mode": "input",
+      "type": "custommachinery:item"
+    },
+    {
+      "id": "output1",
+      "mode": "output",
+      "type": "custommachinery:item"
+    },
+    {
+      "id": "output2",
+      "mode": "output",
+      "type": "custommachinery:item"
+    },
+    {
+      "id": "output3",
+      "mode": "output",
+      "type": "custommachinery:item"
+    },
+    {
+      "id": "output4",
+      "mode": "output",
+      "type": "custommachinery:item"
+    },
+    {
+      "id": "energy",
+      "type": "custommachinery:energy",
+      "capacity": 8000,
+      "config": {
+        "default": "input"
+      }
+    }
+  ]
+}

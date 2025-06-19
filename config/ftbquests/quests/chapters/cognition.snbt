@@ -1,0 +1,284 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cognition"
+	group: ""
+	icon: {
+		Count: 1
+		id: "experienceobelisk:experience_obelisk"
+		tag: { }
+	}
+	id: "073CC2C1533BA643"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5434FD35898DA564"
+				"71B544B0F45E0BAA"
+			]
+			id: "3E481B4729D0CDF2"
+			tasks: [{
+				id: "4CACCA01E4D5CB5B"
+				item: "experienceobelisk:cognitive_flux"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E481B4729D0CDF2"]
+			id: "7E32063BC957AE2E"
+			tasks: [{
+				id: "35EDBB538BD75294"
+				item: "experienceobelisk:cognitive_amalgam"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E32063BC957AE2E"]
+			id: "13C695E5E7534C82"
+			tasks: [{
+				id: "564DE4897FE5BE57"
+				item: "experienceobelisk:cognitive_alloy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E32063BC957AE2E"]
+			id: "002C661ECD940A19"
+			tasks: [{
+				id: "2701090EE317D9A5"
+				item: "experienceobelisk:cognitive_crystal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"13C695E5E7534C82"
+				"002C661ECD940A19"
+			]
+			id: "5297D3570BD0983B"
+			tasks: [{
+				id: "355584688C346C37"
+				item: "experienceobelisk:astute_assembly"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5297D3570BD0983B"]
+			id: "12B8C736CD833789"
+			tasks: [{
+				id: "6F708680D08AF777"
+				item: {
+					Count: 1
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28FDC29667C702F1"]
+			id: "6046A7C3F9D91DD5"
+			tasks: [{
+				id: "61B742756FF23E7C"
+				item: {
+					Count: 1
+					id: "experienceobelisk:molecular_metamorpher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5297D3570BD0983B"]
+			id: "634DBC17BB953595"
+			tasks: [{
+				id: "66EF0392E25D1546"
+				item: "experienceobelisk:precision_dispeller"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["002C661ECD940A19"]
+			id: "28FDC29667C702F1"
+			tasks: [{
+				id: "5624AB8F2E5CC38A"
+				item: "experienceobelisk:accelerator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28FDC29667C702F1"]
+			id: "6C7C943EA7A7A686"
+			tasks: [{
+				id: "2DB34F5CA629417D"
+				item: "experienceobelisk:linear_accelerator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5297D3570BD0983B"]
+			id: "35EF2943D9FDC866"
+			tasks: [{
+				id: "574023F3C1659CF3"
+				item: "experienceobelisk:experience_fountain"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58D007AD390CBCBB"]
+			id: "64341D7F6E892900"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "074DA7859E91283C"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			subtitle: "Disenchant item and collect experience as liquid."
+			tasks: [{
+				id: "31110374A3B10D8B"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71B544B0F45E0BAA"]
+			id: "6B5D00440E177092"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31854EDE3B0911B6"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			subtitle: "Copy your written book, enchanted book, name tag and train schedule."
+			tasks: [{
+				id: "0578D9C3391F415D"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71B544B0F45E0BAA"]
+			id: "7B90A1A66B750F76"
+			rewards: [
+				{
+					id: "55B436BA9A0EF8C5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CBEB863923CDB45"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			subtitle: "Give your Blaze Burner a Enchanting Guide and turn it into a Blaze Enchanter"
+			tasks: [{
+				advancement: "create_enchantment_industry:blazes_new_job"
+				criterion: ""
+				id: "23E7332EAD0FA6C0"
+				type: "advancement"
+			}]
+			title: "Blaze's New Job"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B90A1A66B750F76"]
+			id: "6A0A0001B3574AE8"
+			rewards: [
+				{
+					id: "68C408C1AB473E2C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23D244A6638B678E"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Add a new enchantment to an unenchanted item using Blaze Enchanter"
+			tasks: [{
+				advancement: "create_enchantment_industry:first_order"
+				criterion: ""
+				id: "2CF8AB9DC61FC6B6"
+				type: "advancement"
+			}]
+			title: "First Order"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"29EFF7AED691682B"
+				"71B544B0F45E0BAA"
+			]
+			id: "58D007AD390CBCBB"
+			rewards: [
+				{
+					id: "37BDA591A61E3D0D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35EBD97BE6FFEEB2"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "When Used, Redeems Experience points contained within."
+			tasks: [{
+				id: "58EAC6D3BBB8D1D2"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5434FD35898DA564"]
+			description: ["This chapter is all about utilizing your experience to perform feats of science and magic, often at the same time!"]
+			id: "71B544B0F45E0BAA"
+			tasks: [{
+				id: "5BAAA6DB3A4FF27D"
+				title: "It's all about Experience"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+	title: "&8Ars Cognitium"
+}

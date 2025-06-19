@@ -1,0 +1,1003 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "bloodmagic:daggerofsacrifice"
+	id: "5AB661F7FA637C6E"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DC4BAA00E877B22"]
+			id: "657048ADF921034D"
+			tasks: [{
+				id: "5541AA28DDB9EC65"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["657048ADF921034D"]
+			id: "7C33341E8F925702"
+			tasks: [{
+				id: "2883AF040820FB0B"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C33341E8F925702"]
+			id: "4FB26203F4713BA6"
+			tasks: [{
+				id: "738C8B36CB040A1C"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68342BC3B8469C51"]
+			id: "6EAFAC998C7730EB"
+			tasks: [{
+				id: "5E26DD837599B6C5"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7DC4BAA00E877B22"]
+			id: "5D2D402AB4F38EE2"
+			tasks: [{
+				id: "3C58D3CB126C0E7F"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DC4BAA00E877B22"]
+			id: "3F1F065CBE188AD1"
+			tasks: [{
+				id: "4F6EFF1D5C8B561F"
+				item: "bloodmagic:soulsnare"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F1F065CBE188AD1"]
+			id: "504AC3565411C278"
+			tasks: [{
+				id: "2CF842C37E21505A"
+				item: {
+					Count: 1
+					id: "bloodmagic:basemonstersoul"
+					tag: {
+						souls: 1.0d
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["504AC3565411C278"]
+			id: "6B7CA53CF9C09C65"
+			tasks: [{
+				id: "712F1396CBA8A325"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5D2D402AB4F38EE2"]
+			id: "6497B31CAEC8982C"
+			tasks: [{
+				id: "6B8A387DBBC51F1B"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6497B31CAEC8982C"]
+			id: "664EE5B32C8E22A1"
+			tasks: [{
+				id: "7C8D59D59642E7EF"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["664EE5B32C8E22A1"]
+			id: "7F4A22C91F3774EF"
+			tasks: [{
+				id: "4E130F2BAC3A957D"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F4A22C91F3774EF"]
+			id: "65CADAEA5C58E3DE"
+			tasks: [{
+				id: "79A25E5C9933B60B"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["37129673918B4F75"]
+			id: "7DC4BAA00E877B22"
+			tasks: [{
+				id: "702685AEA3F5D1DD"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["657048ADF921034D"]
+			id: "462DCEF04829C65E"
+			tasks: [{
+				id: "319D44A47A73CEB7"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["462DCEF04829C65E"]
+			id: "2A0C3AADE82BF544"
+			tasks: [{
+				id: "07FF2156C83BEC84"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["657048ADF921034D"]
+			id: "68342BC3B8469C51"
+			tasks: [
+				{
+					id: "6F58E0E5FDE8042B"
+					item: "bloodmagic:alchemytable"
+					type: "item"
+				}
+				{
+					id: "2E7423BF70A48344"
+					item: "bloodmagic:soulforge"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2A0C3AADE82BF544"
+				"664EE5B32C8E22A1"
+			]
+			id: "5742D4122EF51946"
+			tasks: [{
+				id: "022D35EE8E8F75B4"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["68342BC3B8469C51"]
+			id: "5D65F14936E9E013"
+			tasks: [{
+				id: "186462F4760DBBBC"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68342BC3B8469C51"]
+			id: "45E78AE28635B42F"
+			tasks: [{
+				id: "765CE82DF46A789D"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45E78AE28635B42F"]
+			id: "05CB196FE5FC8943"
+			tasks: [{
+				id: "67F80F3B088375BE"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05CB196FE5FC8943"]
+			id: "3F67DE425A8B71BE"
+			tasks: [{
+				id: "20E662843DB9090A"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["68342BC3B8469C51"]
+			id: "194CCB6B90D6E464"
+			tasks: [
+				{
+					id: "6D08F73D264E20FE"
+					item: "bloodmagic:demoncrystallizer"
+					type: "item"
+				}
+				{
+					id: "23AE8A1B6DB2C1A0"
+					item: "bloodmagic:demoncrucible"
+					type: "item"
+				}
+			]
+			title: "Manipulating Raw Will"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DC4BAA00E877B22"]
+			id: "4C059EC8C272688F"
+			rewards: [{
+				id: "4714573937CC4BC9"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78F4B44878D65D94"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C059EC8C272688F"]
+			id: "0D809FDC785011AB"
+			tasks: [{
+				id: "5918F05453123273"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0D809FDC785011AB"
+				"301191B983DAA3DC"
+			]
+			id: "1C7E05F422744FFF"
+			tasks: [{
+				id: "767E953CDA817C14"
+				item: "occultism:demons_dream_essence"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C7E05F422744FFF"]
+			id: "2CAA813B0B8F3C0D"
+			tasks: [{
+				id: "1BF9C3B7CF5E9751"
+				item: "occultism:otherworld_essence"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0D809FDC785011AB"]
+			description: ["By lighting a Demon's Dream Fruit on the ground with a Flint \\& Steel you will create Spirit Fire. Now, throwing items into this fire can yield new items! This is Spirit Fire Transmutation or the Art of Enspiriting!"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "occultism:block/spirit_fire_0"
+				}
+			}
+			id: "301191B983DAA3DC"
+			subtitle: "Spirit Fire Transmutation!"
+			tasks: [{
+				id: "24CCD186DFBA9130"
+				title: "How to Enspirit"
+				type: "checkmark"
+			}]
+			title: "Enspiriting"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37ABAEE23FF83625"]
+			id: "57743C1234C08037"
+			tasks: [{
+				id: "6ACCF54264108230"
+				item: "occultism:otherworld_ashes"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["301191B983DAA3DC"]
+			id: "5F070246BCCEDD28"
+			tasks: [{
+				id: "71BC76F8A5E39501"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["12A74C7D96356EAC"]
+			id: "7F473003B6208028"
+			tasks: [{
+				id: "5621FE5087923378"
+				item: "occultism:burnt_otherstone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D809FDC785011AB"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "occultism:textures/mob_effect/third_eye.png"
+				}
+			}
+			id: "388D0216A9F9EC7C"
+			tasks: [{
+				id: "37FE01C95A3F3625"
+				title: "Third Eye"
+				type: "checkmark"
+			}]
+			title: "Open your Third Eye"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6301D7512371F256"
+				"4747AF5676463290"
+			]
+			id: "37ABAEE23FF83625"
+			tasks: [{
+				id: "30D20DCDD3E34890"
+				item: "occultism:otherworld_log"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"301191B983DAA3DC"
+				"388D0216A9F9EC7C"
+			]
+			dependency_requirement: "one_completed"
+			id: "12A74C7D96356EAC"
+			tasks: [{
+				id: "6D565B81214BB564"
+				item: "occultism:otherstone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["388D0216A9F9EC7C"]
+			description: ["Otherwood Groves can generate rarely in the Mining Dimension. If you were to induce the Third Eye effect inside of these rare grove's you might be able to uncover a useful source of Otherworld Materials..."]
+			icon: "occultism:otherworld_sapling"
+			id: "4747AF5676463290"
+			tasks: [{
+				id: "4D22D1AF982EFA13"
+				title: "Otherwood Groves"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["301191B983DAA3DC"]
+			id: "14C74E72E9C76F5D"
+			tasks: [{
+				id: "24076A42EBF3445C"
+				item: "occultism:taboo_book"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["301191B983DAA3DC"]
+			id: "1AC4DF53F748E6F5"
+			tasks: [{
+				id: "6E49E07790042770"
+				item: "occultism:purified_ink"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["301191B983DAA3DC"]
+			id: "095A070182165960"
+			tasks: [{
+				id: "25011ABC136D5EA3"
+				item: "occultism:awakened_feather"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"388D0216A9F9EC7C"
+				"301191B983DAA3DC"
+			]
+			id: "6301D7512371F256"
+			tasks: [{
+				id: "2E9F82CE2502B2A3"
+				item: {
+					Count: 1
+					id: "occultism:otherworld_sapling_natural"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "An Unstable Sapling..."
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37129673918B4F75"
+				"504AC3565411C278"
+			]
+			id: "6F91B1D471E39572"
+			tasks: [{
+				id: "248606A487A25268"
+				item: "biomancy:primordial_core"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F91B1D471E39572"]
+			id: "4BDD6FD309325531"
+			tasks: [{
+				id: "6A3C7EFFD7A93C4F"
+				item: {
+					Count: 1
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4BDD6FD309325531"]
+			id: "0A1D7759ACB692E6"
+			tasks: [{
+				id: "0BF1FE8964542AE1"
+				item: "biomancy:mob_sinew"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4BDD6FD309325531"]
+			id: "376E20E0C334F026"
+			tasks: [{
+				id: "67231FA53BA7C6A3"
+				item: "biomancy:mob_gland"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4BDD6FD309325531"]
+			id: "0387EE4D2D99816C"
+			tasks: [
+				{
+					id: "104C222478472D5B"
+					item: "biomancy:mob_marrow"
+					type: "item"
+				}
+				{
+					id: "4ACA0452DF4E9BAF"
+					item: "biomancy:withered_mob_marrow"
+					type: "item"
+				}
+			]
+			title: "Bone Marrows"
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4BDD6FD309325531"]
+			id: "338D3CE9D6B066E1"
+			tasks: [
+				{
+					id: "49DF7DD207C6A273"
+					item: "biomancy:mob_claw"
+					type: "item"
+				}
+				{
+					id: "46E0B284108C1B13"
+					item: "biomancy:mob_fang"
+					type: "item"
+				}
+			]
+			title: "Claws \\& Fangs"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["338D3CE9D6B066E1"]
+			id: "2F5589ECC00E6951"
+			tasks: [{
+				id: "598A49844375D46B"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["338D3CE9D6B066E1"]
+			id: "0C8F78E7681A969F"
+			tasks: [{
+				id: "0389513A9BC02385"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4BDD6FD309325531"]
+			id: "52A96B3C4B77AC02"
+			tasks: [{
+				id: "11F0123B2F3A8CD2"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"52A96B3C4B77AC02"
+				"376E20E0C334F026"
+			]
+			id: "377425D2C8B5A5D5"
+			tasks: [{
+				id: "07C298D49325E627"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0C8F78E7681A969F"]
+			id: "58F9AFCD2703A51F"
+			tasks: [{
+				id: "1C81A1925B6D11AC"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0C8F78E7681A969F"]
+			id: "7CB8D9BFC20D2F60"
+			tasks: [{
+				id: "3BE79A401FAA275E"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["37ABAEE23FF83625"]
+			id: "0CF1CDCD0A30EAF1"
+			tasks: [{
+				id: "614E750146DE25D7"
+				item: "occultism:otherworld_sapling"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4BDD6FD309325531"]
+			id: "4AFEA805B543C029"
+			tasks: [
+				{
+					id: "36D75A5304CD3D05"
+					item: "biomancy:toxin_gland"
+					type: "item"
+				}
+				{
+					id: "011C942632FAD3DE"
+					item: "biomancy:volatile_gland"
+					type: "item"
+				}
+			]
+			title: "Glands"
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C33341E8F925702"]
+			description: ["By using these in the construction of your blood altar, it will gain more capacity, operational speed, and sacrificial output!"]
+			id: "7A2F791C46077ED4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33D6C03637F1231B"
+				table_id: 4108542907987918393L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "0BFA6307EDA1090F"
+					item: "bloodmagic:speedrune"
+					type: "item"
+				}
+				{
+					id: "2AAF83DE533C06BB"
+					item: "bloodmagic:selfsacrificerune"
+					type: "item"
+				}
+				{
+					id: "66EBF8D83C4E0722"
+					item: "bloodmagic:sacrificerune"
+					type: "item"
+				}
+				{
+					id: "719DCE8C849EAB13"
+					item: "bloodmagic:altarcapacityrune"
+					type: "item"
+				}
+			]
+			title: "Altar Upgrades"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["377425D2C8B5A5D5"]
+			id: "1820D16DBC39FE6D"
+			tasks: [
+				{
+					id: "068438C36317CD95"
+					item: "biomancy:bone_fragments"
+					type: "item"
+				}
+				{
+					id: "48EB19667D432457"
+					item: "biomancy:mineral_fragment"
+					type: "item"
+				}
+				{
+					id: "4C4ED03D64142F57"
+					item: "biomancy:gem_fragments"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["377425D2C8B5A5D5"]
+			id: "502EDEBE3B6B9214"
+			tasks: [
+				{
+					id: "0B4530BF5E9E99E6"
+					item: "biomancy:tough_fibers"
+					type: "item"
+				}
+				{
+					id: "7A2CE1D9D788DEAA"
+					item: "biomancy:elastic_fibers"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["377425D2C8B5A5D5"]
+			id: "389D45CE3E5FA9BC"
+			tasks: [
+				{
+					id: "4160E032A0DBEE2C"
+					item: "biomancy:exotic_dust"
+					type: "item"
+				}
+				{
+					id: "0C5C2730E2E54921"
+					item: "biomancy:stone_powder"
+					type: "item"
+				}
+				{
+					id: "2EADAB310E442673"
+					item: "biomancy:organic_matter"
+					type: "item"
+				}
+				{
+					id: "64F567BA7CE0610B"
+					item: "biomancy:bio_lumens"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DC4BAA00E877B22"]
+			id: "44C6E99EF05EB6C7"
+			tasks: [{
+				id: "30EDCB32318EBF76"
+				item: "biomancy:bloomberry"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D60143236622183"]
+			hide_dependent_lines: true
+			id: "11745193F57BB313"
+			tasks: [{
+				id: "140BC10617B50372"
+				item: "biomancy:nutrients"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["377425D2C8B5A5D5"]
+			id: "018EB0030ACD51C0"
+			tasks: [
+				{
+					id: "10AEE31355C8FD5F"
+					item: "biomancy:bile"
+					type: "item"
+				}
+				{
+					id: "3D98A09DD43C0F97"
+					item: "biomancy:volatile_fluid"
+					type: "item"
+				}
+				{
+					id: "4EC3627F42366154"
+					item: "biomancy:toxin_extract"
+					type: "item"
+				}
+				{
+					id: "4626BE2D51C82DB6"
+					item: "biomancy:regenerative_fluid"
+					type: "item"
+				}
+				{
+					id: "278C42F6536D32EC"
+					item: "biomancy:withering_ooze"
+					type: "item"
+				}
+				{
+					id: "68F616E49027BCA5"
+					item: "biomancy:hormone_secretion"
+					type: "item"
+				}
+			]
+			title: "Organic Essences"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CB8D9BFC20D2F60"]
+			id: "0D60143236622183"
+			tasks: [{
+				id: "75A6BF2B4CC0B52D"
+				item: "biomancy:nutrient_paste"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0D60143236622183"]
+			id: "7DF0C0743EBDF1A7"
+			tasks: [{
+				id: "6C4F49D9E3C537D0"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"018EB0030ACD51C0"
+				"58F9AFCD2703A51F"
+				"11745193F57BB313"
+			]
+			id: "043458DC069901D5"
+			tasks: [
+				{
+					id: "53FEA0709E553C52"
+					item: "biomancy:organic_compound"
+					type: "item"
+				}
+				{
+					id: "07F60C5C2843F314"
+					item: "biomancy:unstable_compound"
+					type: "item"
+				}
+				{
+					id: "6E3E782766B23901"
+					item: "biomancy:genetic_compound"
+					type: "item"
+				}
+				{
+					id: "586145DF3AE46438"
+					item: "biomancy:exotic_compound"
+					type: "item"
+				}
+			]
+			title: "Compounds"
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0C8F78E7681A969F"]
+			id: "64517A2AEE1308EA"
+			tasks: [{
+				id: "5B6902C426B28DED"
+				item: "biomancy:creator_mix"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"03E94A057BADFC91"
+				"7DC4BAA00E877B22"
+			]
+			description: ["The Tome of Blood works just like the standard spellbook except it can use Life Points from your Blood Magic Life Network to cast spells. This can be a powerful tool provided you invest some time into Blood Magic!"]
+			id: "78C4CA021E9C20FD"
+			optional: true
+			tasks: [{
+				id: "76EC3C93A9A6CF1D"
+				item: "tomeofblood:novice_tome_of_blood"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78C4CA021E9C20FD"]
+			id: "073EDF5FA3422196"
+			tasks: [{
+				id: "4DA39D4F80234213"
+				item: "tomeofblood:apprentice_tome_of_blood"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["073EDF5FA3422196"]
+			id: "3B7DD4BAE49D912C"
+			tasks: [{
+				id: "6C8904F8CC13EFAD"
+				item: "tomeofblood:archmage_tome_of_blood"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+	]
+	title: "&4Ars Occultas"
+}

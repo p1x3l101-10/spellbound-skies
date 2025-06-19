@@ -1,0 +1,10 @@
+{
+    "type": "ars_nouveau:imbuement",
+    "count": 1,
+    "input": {
+        "item": "minecraft:sweet_berries"
+    },
+    "output": "ars_nouveau:source_berry",
+    "pedestalItems": [],
+    "source": 100
+}

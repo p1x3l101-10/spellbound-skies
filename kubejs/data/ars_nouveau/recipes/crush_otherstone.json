@@ -1,0 +1,21 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+        "item": "occultism:otherstone"
+    },
+    "output": [
+        {
+            "chance": 1,
+            "count": 1,
+            "item": "occultism:burnt_otherstone",
+            "maxRange": 1
+        },
+        {
+            "chance": 0.7,
+            "count": 1,
+            "item": "thermal:silver_nugget",
+            "maxRange": 2
+        }
+    ],
+    "skip_block_place": true
+}

@@ -1,0 +1,27 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+        "item": "botania:livingrock"
+    },
+    "output": [
+        {
+            "chance": 0.025,
+            "count": 1,
+            "item": "botania:manasteel_nugget",
+            "maxRange": 1
+        },
+        {
+            "chance": 0.15,
+            "count": 1,
+            "item": "botania:mana_powder",
+            "maxRange": 1
+        },
+        {
+            "chance": 0.45,
+            "count": 1,
+            "item": "minecraft:gold_nugget",
+            "maxRange": 3
+        }
+    ],
+    "skip_block_place": true
+}

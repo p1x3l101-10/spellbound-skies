@@ -1,0 +1,27 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+        "item": "hexcasting:amethyst_dust_block"
+    },
+    "output": [
+        {
+            "chance": 1,
+            "count": 1,
+            "item": "hexcasting:amethyst_dust",
+            "maxRange": 4
+        },
+        {
+            "chance": 0.45,
+            "count": 1,
+            "item": "hexcasting:amethyst_dust",
+            "maxRange": 4
+        },
+        {
+            "chance": 0.1,
+            "count": 1,
+            "item": "botania:mana_powder",
+            "maxRange": 1
+        } 
+    ],
+    "skip_block_place": true
+}
