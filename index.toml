@@ -2685,6 +2685,10 @@ file = "config/yacl.json5"
 hash = "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820"
 
 [[files]]
+file = "defaultconfigs/ftbchunks/client-config.snbt"
+hash = "52bc2b81a7835d0382ea94dc961aeb17291b779575c5927520ee5bea946810d7"
+
+[[files]]
 file = "kubejs/.vscode/settings.json"
 hash = "108925093aef0d39a2f43c95544aaf04618c2f0ca007786cf1bd4e78ca26ec20"
 
