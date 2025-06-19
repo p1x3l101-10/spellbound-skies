@@ -3253,7 +3253,7 @@ metafile = true
 
 [[files]]
 file = "mods/cave-dust.pw.toml"
-hash = "1b72c550b3ad291ba15cc550d5ae3287f7a94b53c6e29fc3d31b438f8437bce9"
+hash = "20ecc68b8ce61968b3e66e9a90120a640405dc13028d184e674d6f13af64b1f1"
 metafile = true
 
 [[files]]
@@ -3273,7 +3273,7 @@ metafile = true
 
 [[files]]
 file = "mods/clear-water.pw.toml"
-hash = "ed476890c1f728d857f51d6c7c3717b5fb0ab282cba08d66112055b8744f9c9d"
+hash = "02b80b8a6e82ee44754c6ad01f44416a473edadb9bb6a16c29e282d5d9c6c453"
 metafile = true
 
 [[files]]
@@ -3333,7 +3333,7 @@ metafile = true
 
 [[files]]
 file = "mods/craftpresence.pw.toml"
-hash = "5b8b6254f1882439e148b2c7db4e8a4b03f6a749db772a004512c1c3c5790641"
+hash = "1b8396efc88f835f9ec9e5c1ee791b801cb416b9427e989366dc646aeb5fdcc6"
 metafile = true
 
 [[files]]
@@ -3468,7 +3468,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
-hash = "8f2270a50a633db681826cbfb691e6efdb25e1e0c4702125c13d525b52fe229f"
+hash = "00a06884a4f8854fad85f2456c1d6c53ee09cc5e545a35e41cad24e82907a1ab"
 metafile = true
 
 [[files]]
@@ -3498,7 +3498,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
+hash = "a74b2d65c286896335b454f61f18be630d0f13767626ebb118584907d1d37112"
 metafile = true
 
 [[files]]
@@ -3858,7 +3858,7 @@ metafile = true
 
 [[files]]
 file = "mods/magnesium-extras.pw.toml"
-hash = "c8c25cccf1f0c3aaa0a5639f28f40d61b4eadd3130558b39ce6c279b8b775556"
+hash = "27f69e040bd3275a1ee455353f1ad31b69200d72122308ead260522a6c2525e0"
 metafile = true
 
 [[files]]
