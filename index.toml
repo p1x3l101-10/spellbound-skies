@@ -1050,15 +1050,15 @@ hash = "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "d89bcdb398bfdace86e9f132e2862ab0df4945ce08aef3f0328853263cfa184e"
+hash = "8489d4e58cbdff64564157707839845fb3a22df1e8149a342d1aaf711f15af32"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "1604f8d4f6959848aa6597e3e3d94155a1f46ff654c5055d8e5164bb10af5413"
+hash = "e5511c17a4b78e348b76367730b1b8da66467e41c488dbff911ac82dc22e9b91"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
-hash = "dc179f42c18d3ddc125e16c6b60e192d5f4c9cb872019533e8c53ad3ddf88135"
+hash = "95f70662db1dbdde5aa38d469788a62c9ece1298f07bb9b76881ea9d854ae7b4"
 
 [[files]]
 file = "config/defaultworldtype/client-config.toml"
