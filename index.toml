@@ -3861,6 +3861,11 @@ hash = "c8c25cccf1f0c3aaa0a5639f28f40d61b4eadd3130558b39ce6c279b8b775556"
 metafile = true
 
 [[files]]
+file = "mods/mahou-tsukai.pw.toml"
+hash = "c01e4f873d0c5deb69686ad4583b8c052408256f3641a4d6c277b865fc341634"
+metafile = true
+
+[[files]]
 file = "mods/mana-visualizer.pw.toml"
 hash = "2d3c03e61166f3d5d7f49575c27bb8d26ca4e8d04a6da6faee387d509baece22"
 metafile = true
